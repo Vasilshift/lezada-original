@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 import {HeaderFour, HeaderOne} from "../Header";
-import { FooterTwo } from "../Footer";
+import {FooterFour, FooterOne, FooterTwo} from "../Footer";
 
 const LayoutFour = ({ children }) => {
   return (
