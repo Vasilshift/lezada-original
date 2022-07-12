@@ -1,11 +1,12 @@
 import { connect } from "react-redux";
 import { getProducts } from "../lib/product";
-import { LayoutFour } from "../components/Layout";
+import {LayoutFour, LayoutOne} from "../components/Layout";
 import { HeroSliderOne } from "../components/HeroSlider";
 import { ProductTab } from "../components/ProductTab";
 import { ImageCta } from "../components/Cta";
 import heroSliderData from "../data/hero-sliders/hero-slider-one.json";
 import imageCtaData from "../data/image-cta/image-cta-one.json";
+import LookbookContent from "../components/HomeContent/LookbookContent";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       {/* hero slider */}
       {/*<HeroSliderOne sliderData={heroSliderData} />*/}
 
+      <LookbookContent />
       {/* product tab */}
       {/*<ProductTab*/}
       {/*  newProducts={newProducts}*/}
