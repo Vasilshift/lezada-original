@@ -1,11 +1,11 @@
 import { Fragment } from "react";
-import { HeaderFour } from "../Header";
+import {HeaderFour, HeaderOne} from "../Header";
 import { FooterTwo } from "../Footer";
 
 const LayoutFour = ({ children }) => {
   return (
     <Fragment>
-      <HeaderFour />
+      <HeaderOne />
       {children}
       <FooterTwo />
     </Fragment>
