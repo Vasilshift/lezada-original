@@ -89,7 +89,6 @@ const LoginRegister = () => {
         <div className="login-area space-mt--r130 space-mb--r130">
           <Container>
             <Row>
-
               <Col lg={6} className="space-mb-mobile-only--50">
                 <div className="lezada-form login-form">
 
